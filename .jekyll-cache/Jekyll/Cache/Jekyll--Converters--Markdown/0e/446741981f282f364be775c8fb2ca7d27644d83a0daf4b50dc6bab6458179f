@@ -1,0 +1,27 @@
+I"�<p>I’ve recently attempted and attained the eCPTXv2 certification which is aimed at experienced penetration testers whom want to specialize in the area of infrastructure security. In this review I’ll go through the end-to-end process, looking at the course materials, labs and the exam. The course comes with PDF booklets, videos and lab access as well as an exam attempt (there is a retake attempt in case you did not manage to clear it the first time).</p>
+
+<h1 id="course-materials">Course materials</h1>
+
+<p>eCPTXv2 is a refreshed version of the older version of the course with the same name, and the biggest update is the inclusion of much more depth for the Active Directory exploitation portion section.
+There is much more depth in this area which takes students from the basics of the AD services, traditional approach to enumeration and ramps it up all the way to modern exploitation techniques. There are also multiple AD labs where students can practice the TTPs (Tactics, Techniques and Procedures) which are covered in the course itself.</p>
+
+<h2 id="syllabus">Syllabus</h2>
+
+<p>The official <a href="https://elearnsecurity.com/product/ecptx-certification/">website</a> lists the following areas of competencies:</p>
+
+<ul>
+  <li>Advanced Penetration Testing Processes and Methodologies</li>
+  <li>Advanced Exploitation using Metasploit and Empire</li>
+  <li>Network/traffic manipulation</li>
+  <li>Pivoting</li>
+  <li>Advanced Lateral Movement (WMI, PS Remoting, DCOM, etc.)</li>
+  <li>Advanced Active Directory Information Gathering, Enumeration and Reconnaissance</li>
+  <li>Custom Attack Vector Development</li>
+  <li>Deep knowledge of Active Directory and Windows internals</li>
+  <li>Knowledge of Windows authentication weaknesses</li>
+  <li>Web application Manual exploitation</li>
+  <li>Stealthy Scanning and Profiling the target</li>
+  <li>Advanced Persistence / Backdooring</li>
+  <li>Privilege escalation</li>
+</ul>
+:ET

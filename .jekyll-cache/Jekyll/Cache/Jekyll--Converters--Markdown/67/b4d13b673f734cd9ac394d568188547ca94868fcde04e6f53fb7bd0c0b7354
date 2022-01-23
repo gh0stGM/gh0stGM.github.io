@@ -1,0 +1,77 @@
+I"� <p>I’ve recently attempted and attained the eCPTXv2 certification which is aimed at experienced penetration testers whom want to specialize in the area of infrastructure security. In this review I’ll go through the end-to-end process, looking at the course materials, the labs, the exam and concluding with my personal opinions of the course. The course comes with course notes, videos and lab access as well as an exam attempt (there is a retake attempt in case you did not manage to clear it the first time).</p>
+
+<h1 id="course-materials">Course materials</h1>
+
+<p>eCPTXv2 is a refreshed version of the older version of the course with the same name, and the biggest update is the inclusion of much more depth for the Active Directory exploitation portion section.
+There are much more details in this area which takes students from the basics of the AD services, traditional approach to enumeration and ramps it up all the way to modern exploitation techniques. There are also multiple AD labs where students can practice the TTPs (Tactics, Techniques and Procedures) which are covered in the course itself.</p>
+
+<h2 id="syllabus">Syllabus</h2>
+
+<p>The [new] official <a href="https://elearnsecurity.com/product/ecptx-certification/">website</a> lists the following areas of competencies:</p>
+
+<ul>
+  <li>Advanced Penetration Testing Processes and Methodologies</li>
+  <li>Advanced Exploitation using Metasploit and Empire</li>
+  <li>Network/traffic manipulation</li>
+  <li>Pivoting</li>
+  <li>Advanced Lateral Movement (WMI, PS Remoting, DCOM, etc.)</li>
+  <li>Advanced Active Directory Information Gathering, Enumeration and Reconnaissance</li>
+  <li>Custom Attack Vector Development</li>
+  <li>Deep knowledge of Active Directory and Windows internals</li>
+  <li>Knowledge of Windows authentication weaknesses</li>
+  <li>Web application Manual exploitation</li>
+  <li>Stealthy Scanning and Profiling the target</li>
+  <li>Advanced Persistence / Backdooring</li>
+  <li>Privilege escalation</li>
+</ul>
+
+<p>The course notes are very detailed for each section, taking students from the very basics of a particular piece of technology, the ways in which misconfigurations can occur and finally, how to leverage this misconfigurations for abuse. I do feel that this course excels in the courseware and for the price that one pays for it (I bought it before INE’s acquisition of eLearnSecurity so the full package costs about $1,169 USD for full version with a free upgrade to the elite version), there are very little courses out there that can deliver on the listed areas of competencies.</p>
+
+<p>It is highly recommended that students should go through the notes multiple times purely due to the sheer volume of the content inside (almost all the course notes provided have ~700 pages each). Personally, I’ve gone through the course notes multiple times and divided it up into chunks so that I do not get burned out easily. This coupled with your own research should help students to understand the fundamental concepts and get a firm grasp of the TTPs taught inside the course.</p>
+
+<p>Unfortunately, the videos included inside the course package did little to reinforce the concepts taught in the course notes as they seem to be showcasing more advanced techniques which are not covered in the notes. Although they are still pretty interesting and useful to a certain extent, it is completely fine not to go too deep into the videos (unless it’s your own interest) in order to advance in the course.</p>
+
+<h1 id="the-labs">The Labs</h1>
+
+<p>My most favourite part about the labs are huge AD domains which have varying levels of difficulty, with the first lab being a guided one that teaches users to setup a C2, getting a foothold all the way to owning the entire domain as well as its trusting/trusted domains. Once user is comfortable with the first lab, there are also multiple other AD labs that user should attempt to compromise via multiple paths - attempting to identify the misconfigurations instead of purely trying to get the Domain Administrator (DA) access.</p>
+
+<p>There are also other labs included which should help students to be more familiar with developing custom exploits that evade AV/EDR for initial access, persisting on machines via malicious updates pushed through WSUS and web application attacks that could lead to exfiltration of critical information.</p>
+
+<p>Initially, I was using the eLearnSecurity’s native platform to do the lab - however, after the INE takeover, all current users are provided with an option to migrate to the INE platform. Stability wise the eLearnSecurity native platform seems to be better as I did not face any intermittent connection issues. However, when I migrated over to the INE platform, there seem to be random disconnections when there is user inactivity for a certain period of time (about 30 minutes in my case), which can be frustrating if user has to maintain active connections to all the internal networks that they have managed to compromise. Hopefully INE does improve on this by handling session timeouts better just to save that bit of frustration.</p>
+
+<h1 id="the-exam">The Exam</h1>
+
+<p>Once user presses the “Start Certification” button, there will be a letter of engagement which details the items in-scope and the conditions necessary to be provided with the eCPTXv2 certification. I won’t be going too deep into the details but if you have digested the course notes and videos as well as done the lab multiple times, there shouldn’t be any issue in attaining the certification. It is important to instil the mindset of a security consultant whose goal is to find as many misconfigurations in the environment as possible, instead of a red teamer whose goal is to purely attain DA. As for myself, it took me two tries to clear the examination and in terms of difficulty, it’s pretty brutal. Nonetheless, take regular breaks, have proper meals and remember to get as much sleep as possible just to keep your mind fresh.</p>
+
+<p>After about 3 weeks from submitting the final report (the report grading takes anywhere from 1 to 30 business days as per the eLearnSecurity team), I finally received the news that I have cleared the examination.</p>
+
+<p><img src="/images/ecptx.png" alt="YAY!" /></p>
+
+<h1 id="my-opinions">My Opinions</h1>
+
+<p>This course is pretty fulfilling and I’d rank it as one of the best Active Directory penetration testing courses that I’ve taken. As I have cleared other Active Directory based certifications (CRTE, OSEP, CRTO), I can grasp the AD concepts pretty well even though the exam still turned out to be pretty challenging. I would rate this course on par with OSEP in terms of quality as well as difficulty and would recommend it to any aspiring red teamer.</p>
+
+<h2 id="pros">Pros</h2>
+
+<ul>
+  <li>The course covers every part of a red teaming engagement from initial access, gaining persistence, moving laterally and owning the domain.</li>
+  <li>The additional AD labs made it pretty worth purchasing since most avenues of misconfigurations are covered.</li>
+  <li>The coverage of each area of competency is detailed, with real updated TTPs.</li>
+  <li>The exam was pretty challenging - even though the course covers all the necessary information to pass, user still needs to think out of the box.</li>
+</ul>
+
+<h2 id="cons">Cons</h2>
+
+<ul>
+  <li>Possibly lab environment instability with random timeouts and intermittent connectivity issues. It’s not uncommon to take a short break and come back to realize all my beacons are dead because the VPN connection went down. This can be frustrating due to the amount of pivoting required for internal network access.</li>
+  <li>Exam support - there is no chat hotline that one can rely on when technical issues arise during the exam (or during lab access for that matter). If there are any issues, one has to rely on the good old email support which might not be that responsive. Even though the exam environment is pretty stable for me, adding a 24/7 support will greatly benefit students should they need one.</li>
+</ul>
+
+<h1 id="references">References</h1>
+
+<p>The following blogs and certifications came in handy during my pursuit of the eCPTXv2 certification:</p>
+
+<h2 id="certifications">Certifications</h2>
+
+<p>Offensive Security Experienced Penetration Tester: https://www.offensive-security.com/pen300-osep/</p>
+:ET

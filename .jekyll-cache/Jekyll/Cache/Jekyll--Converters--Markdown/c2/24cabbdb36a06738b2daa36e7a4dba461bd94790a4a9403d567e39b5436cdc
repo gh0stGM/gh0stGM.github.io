@@ -1,0 +1,26 @@
+I"f<p>I’ve recently attempted and attained the eCPTXv2 certification which is aimed at experienced penetration testers whom want to specialize in the area of infrastructure security. In this review I’ll go through the end-to-end process, looking at the course materials, labs and the exam. The course comes with PDF booklets, videos and lab access as well as an exam attempt (there is a retake attempt in case you did not manage to clear it the first time).</p>
+
+<h1 id="course-materials">Course materials</h1>
+
+<p>eCPTXv2 is an updated version of the v1 course with the biggest difference being the inclusion of 3 huge Active Directory labs. It seemed like eLearnSecurity received their share of complaints regarding the lack of these labs in the previous version which prompted them to update the course in May 2020.</p>
+
+<h2 id="syllabus">Syllabus</h2>
+
+<p>The official website lists the following areas of competencies:</p>
+
+<ul>
+  <li>Advanced penetration testing processes and methodologies</li>
+  <li>Advanced Exploitation using Metasploit and Empire</li>
+  <li>Network/traffic manipulation</li>
+  <li>Pivoting</li>
+  <li>Advanced Lateral Movement (WMI, PS Remoting, DCOM, etc.)</li>
+  <li>Advanced Active Directory Information Gathering, Enumeration and Reconnaissance</li>
+  <li>Custom Attack Vector Development</li>
+  <li>Deep knowledge of Active Directory and Windows internals</li>
+  <li>Knowledge of Windows authentication weaknesses</li>
+  <li>Web application Manual exploitation</li>
+  <li>Stealthy Scanning and Profiling the target</li>
+  <li>Advanced Persistence / Backdooring</li>
+  <li>Privilege escalation</li>
+</ul>
+:ET

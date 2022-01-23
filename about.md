@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+gh0st
 
-### More Information
+Red Teaming, Active Directory, Cloud and Infrastructure Hacking
 
-A place to include any other types of information that you'd like to include about yourself.
+[Twitter](https://twitter.com/nyanlinsteve)
 
-### Contact me
+[LinkedIN](https://www.linkedin.com/in/steve-nyan-lin-b69b43114/)
 
-[email@domain.com](mailto:email@domain.com)
+[GitHub](https://github.com/gh0stGM)

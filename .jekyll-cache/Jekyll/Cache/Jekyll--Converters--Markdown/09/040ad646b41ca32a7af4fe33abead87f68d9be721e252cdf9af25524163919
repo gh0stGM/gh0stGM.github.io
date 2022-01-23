@@ -1,0 +1,39 @@
+I"n<p>I’ve recently attempted and attained the eCPTXv2 certification which is aimed at experienced penetration testers whom want to specialize in the area of infrastructure security. In this review I’ll go through the end-to-end process, looking at the course materials, the labs, the exam and concluding with my personal opinions of the course. The course comes with course notes, videos and lab access as well as an exam attempt (there is a retake attempt in case you did not manage to clear it the first time).</p>
+
+<h1 id="course-materials">Course materials</h1>
+
+<p>eCPTXv2 is a refreshed version of the older version of the course with the same name, and the biggest update is the inclusion of much more depth for the Active Directory exploitation portion section.
+There is much more depth in this area which takes students from the basics of the AD services, traditional approach to enumeration and ramps it up all the way to modern exploitation techniques. There are also multiple AD labs where students can practice the TTPs (Tactics, Techniques and Procedures) which are covered in the course itself.</p>
+
+<h2 id="syllabus">Syllabus</h2>
+
+<p>The [new] official <a href="https://elearnsecurity.com/product/ecptx-certification/">website</a> lists the following areas of competencies:</p>
+
+<ul>
+  <li>Advanced Penetration Testing Processes and Methodologies</li>
+  <li>Advanced Exploitation using Metasploit and Empire</li>
+  <li>Network/traffic manipulation</li>
+  <li>Pivoting</li>
+  <li>Advanced Lateral Movement (WMI, PS Remoting, DCOM, etc.)</li>
+  <li>Advanced Active Directory Information Gathering, Enumeration and Reconnaissance</li>
+  <li>Custom Attack Vector Development</li>
+  <li>Deep knowledge of Active Directory and Windows internals</li>
+  <li>Knowledge of Windows authentication weaknesses</li>
+  <li>Web application Manual exploitation</li>
+  <li>Stealthy Scanning and Profiling the target</li>
+  <li>Advanced Persistence / Backdooring</li>
+  <li>Privilege escalation</li>
+</ul>
+
+<p>The course notes are very detailed for each section, taking students from the very basics of a particular piece of technology, the ways in which misconfigurations can occur and finally, how to leverage this misconfigurations for abuse. I do feel that this course excels in the courseware and for the price that one pays for it (I bought it before INE’s acquisition of eLearnSecurity so the full package costs about $1,169 USD for full version with a free upgrade to the elite version), there is very little courses out there that can deliver on the listed areas of competencies.</p>
+
+<p>It is highly recommended that students should go through the notes multiple times purely due to the sheer volume of the content inside (almost all the course notes provided have ~700 pages each). Personally, I’ve gone through the course notes multiple times and divided it up into chunks so that I do not get burned out easily. This coupled with your own research should help students to understand the fundamental concepts and get a firm grasp of the TTPs taught inside the course.</p>
+
+<p>Unfortunately, the videos included inside the course package did little to reinforce the concepts taught in the course notes as they seem to be showcasing more advanced techniques which are not covered in the notes. Although they are still pretty interesting and useful to a certain extent, it is completely fine not to go too deep into the videos (unless it’s your own interest) in order to advance in the course.</p>
+
+<h1 id="the-labs">The Labs</h1>
+
+<p>My most favourite part about the labs are huge AD domains which have varying levels of difficulty, with the first lab being a guided one that teachs users to setup a C2, getting a foothold all the way to owning the entire domain as well as its trusting/trusted domains. Once user is comfortable with the first lab, there are also multiple other AD labs that user should attempt to compromise via multiple paths - attempting to identify the misconfigurations instead of purely trying to get the Domain Administrator (DA) access.</p>
+
+<p>There are also other labs included which should help students to be more familiar with the red teaming methodology,</p>
+:ET
